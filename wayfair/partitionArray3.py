@@ -1,4 +1,3 @@
-#!/usr/bin/python
 class Solution:
 	"""
 	@param nums: The integer array you should partition
