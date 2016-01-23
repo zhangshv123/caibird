@@ -1,5 +1,5 @@
 class Untitled {
-//就是Lintcode上的方法
+//就是Lintcode上的方法,O(n)time,O(1)space
 	public static void main(String[] args) {
 		int[] nums={1,-2,3,-1,2,-3};
 		int[] res=partitionArray(nums,0);

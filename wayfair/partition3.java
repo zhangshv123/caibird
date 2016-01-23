@@ -1,6 +1,7 @@
 import java.util.*;
 /* 主要的思路是通过改变数字内容来实现保留数字之间相对的顺序，
-比方说数列 3 4 -1 -3 5 2 -7 6 1，
+比方说数列 1,-2,3,-1,2,-3
+应该变成 3.1,-0.2,4.3,-1.1,5.2,-2.3
 小数点前存储应该在的位置，小数点后存贮原来的值 */
 class Untitled {
 	public static void main(String[] args) {
@@ -27,8 +28,7 @@ class Untitled {
 				pos+=1;
 			}
 		}
-//		for(double item:nums)
-//			System.out.print(item+" ");
+		
 		for(int i=0;i<nums.length;i++){
 			while(Math.floor(Math.abs(nums[i]))!=i){
 				int idx=(int)Math.floor(Math.abs(nums[i]));

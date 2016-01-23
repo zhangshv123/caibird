@@ -1,5 +1,5 @@
 import java.util.*;
-
+//O(n)time,O(n)space
 class Untitled {
 	public static void main(String[] args) {
 		int[] nums={1,-2,3,-1,2,-3};
